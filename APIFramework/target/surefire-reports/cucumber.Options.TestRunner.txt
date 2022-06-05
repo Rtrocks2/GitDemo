@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.143 s <<< FAILURE! - in cucumber.Options.TestRunner
+Verify if delete place functionality is working(Validating Place API's)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.when()" because "this.res" is null
+
